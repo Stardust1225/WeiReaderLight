@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.a49066.weireaderlight.MyImageView
+        android:id="@+id/inforpage_image1"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+        <LinearLayout
+        android:layout_width="5dp"
+        android:layout_height="match_parent"/>
+        <com.example.a49066.weireaderlight.MyImageView
+        android:id="@+id/inforpage_image2"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+        <LinearLayout
+        android:layout_width="5dp"
+        android:layout_height="match_parent"/>
+        <com.example.a49066.weireaderlight.MyImageView
+        android:id="@+id/inforpage_image3"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <com.example.a49066.weireaderlight.MyImageView
+            android:id="@+id/inforpage_image4"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+        <com.example.a49066.weireaderlight.MyImageView
+            android:id="@+id/inforpage_image5"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <LinearLayout
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+        <com.example.a49066.weireaderlight.MyImageView
+            android:id="@+id/inforpage_image6"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <com.example.a49066.weireaderlight.MyImageView
+            android:id="@+id/inforpage_image7"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+        <com.example.a49066.weireaderlight.MyImageView
+            android:id="@+id/inforpage_image8"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <LinearLayout
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+        <com.example.a49066.weireaderlight.MyImageView
+            android:id="@+id/inforpage_image9"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
